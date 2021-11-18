@@ -283,7 +283,7 @@ An HTTP session is a network session that uses the HTTP protocol. Such sessions 
 
 | Field | Class | Type | Description |
 | --- | --- | --- | --- |
-| **Url** | Recommended | String | For HTTP/HTTPS network sessions, the full HTTP request URL, including parameters. This field is mandatory when the event represents an HTTP session.<br><br>Example: `https://contoso.com/fo/?k=v&amp;q=u#f` |
+| **Url** | Recommended | String | For HTTP/HTTPS network sessions, the full HTTP request URL, including parameters. This field is mandatory when the event represents an HTTP session.<br><br>Example: `https://contoso.com/fo/?k=v&q=u#f` |
 | **UrlCategory** | Optional | String | The defined grouping of a URL or the domain part of the URL. The category is commonly provided by web security gateways and is based on the content of the site the URL points to.<br><br>Example: search engines, adult, news, advertising, and parked domains. |
 | **UrlOriginal** | Optional | String | The original value of the URL, when the URL was modified by the reporting device and both values are provided. |
 | **HttpVersion** | Optional | String | The HTTP Request Version for HTTP/HTTPS network connections.<br><br>Example: `2.0` |
